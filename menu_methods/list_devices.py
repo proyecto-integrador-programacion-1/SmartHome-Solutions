@@ -3,7 +3,10 @@ from helpers import get_device_attr
 
 def list():
 	devices = devices_data_from_local.get_devices()
-	print("Estos son los dispositivos registrados por el sistema:")
+	print("::::::::::::::::::::::::::::::::::::::")
+	print(":::::::DISPOSITIVOS REGISTRADOS:::::::")
+	print("::::::::::::::::::::::::::::::::::::::")
+	print("\n")
 	for device in devices:
-		print("-----------------")
 		get_device_attr.get_device_attr(device)
+	print("\n")

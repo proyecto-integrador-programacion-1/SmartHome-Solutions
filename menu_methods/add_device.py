@@ -3,9 +3,10 @@ from data.get_devices_types import get_devices_type_from_local
 from interfaces.devices_info import DeviceData, RecorderDeviceData, TempratureDeviceData
 
 def add():
-	print("-------------------------")
-	print("Agregar nuevo dispositivo")
-	print("-------------------------")
+	print("::::::::::::::::::::::::::::::::::::::")
+	print(":::::::::AGREGAR DISPOSITIVO::::::::::")
+	print("::::::::::::::::::::::::::::::::::::::")
+	print("\n")
 	name = input("Nombre del dispositivo: ")
 	status = input("Estado inicial (prendido 'p'/apagado 'a'): ")
 	is_essential = input("Es un dispositivo esencial? (sí 's'/no 'n'): ")
@@ -33,5 +34,7 @@ def add():
 			return
 		
 	set_new_device(new_device)
+	print("-----------------")
 	print(f"Dispositivo {name} ha agregado con éxito!\n")
+	print("-----------------")
 	

@@ -7,8 +7,8 @@ def main():
 def handle_menu_selection():
 	while True:
 		display_menu()
-		print("\n")
 		selected_option = input("Seleccione una opción: ")
+		print("\n")
 		match selected_option:
 			case "1":
 				list_devices.list()
