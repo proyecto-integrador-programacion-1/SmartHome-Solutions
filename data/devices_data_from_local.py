@@ -7,7 +7,7 @@ device4 = devices_info.TempratureDeviceData("Heladera quincho", True, 6)
 	
 devices = [device1, device2, device3, device4]
 
-def get_devices_from_local():	
+def get_devices():	
 	return devices
 
 

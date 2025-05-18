@@ -1,4 +1,4 @@
-from data import get_devices_data
+from data import devices_data_from_local
 
 def delete():
 	while True:
@@ -10,7 +10,7 @@ def delete():
 		elif selected_option == "1":
 			device_name = input("\nEscriba el nombre del dispositivo a eliminar: \n")
 
-			device_deleted = get_devices_data.delete_device(device_name.lower())
+			device_deleted = devices_data_from_local.delete_device(device_name.lower())
 			if device_deleted:
 				print("Dispositivo eliminado con éxito.\n")
 			else:

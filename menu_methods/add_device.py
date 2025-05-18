@@ -1,4 +1,4 @@
-from data.get_devices_data import set_new_device
+from data.devices_data_from_local import set_new_device
 from data.get_devices_types import get_devices_type_from_local
 from interfaces.devices_info import DeviceData, RecorderDeviceData, TempratureDeviceData
 

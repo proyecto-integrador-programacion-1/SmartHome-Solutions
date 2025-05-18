@@ -1,7 +1,6 @@
 # SmartHome-Solutions
 
 ## TODO (ordenado por nivel de criticidad)
-- Eliminar dispositivo
 - Gestionar automatizaciones (modo ahorro de energia)
 - Realizar documento PDF que explique la automatización elegida y su funcionamiento. El elegido es "Modo Ahorro de Energía"
 

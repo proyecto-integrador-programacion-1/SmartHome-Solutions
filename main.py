@@ -1,4 +1,4 @@
-from menu_methods import list_devices, search_devices, add_device, delete_device, manage_automatizations
+from menu_methods import list_devices, search_devices, add_device, delete_device, manage_automations
 
 def main():
 	print("Bienvenido a SmartHome Solutions, el sistema de automatización de casas inteligentes.\n")
@@ -19,7 +19,7 @@ def handle_menu_selection():
 			case "4":
 				delete_device.delete()
 			case "5":
-				manage_automatizations.manage_automatizations()
+				manage_automations.manage_automations()
 			case "6":
 				break
 			case _:

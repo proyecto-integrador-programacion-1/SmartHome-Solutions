@@ -1,9 +1,9 @@
-from data import get_devices_data
+from data import devices_data_from_local
 from helpers import get_device_attr
 
 def search():
 
-	devices = get_devices_data.get_devices_from_local()
+	devices = devices_data_from_local.get_devices()
 	while True:
 		print("1. Buscar dispositivo")
 		print("2. Volver al menú principal")
