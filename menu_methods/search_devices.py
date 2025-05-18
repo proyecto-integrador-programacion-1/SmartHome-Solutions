@@ -5,7 +5,7 @@ def search():
 
 	devices = get_devices_data.get_devices_from_local()
 	while True:
-		print("1. Ingresar el nombre del dispositivo a buscar")
+		print("1. Buscar dispositivo")
 		print("2. Volver al menú principal")
 		selected_option = input("Seleccione una opción: ")
 		if selected_option == "2":
