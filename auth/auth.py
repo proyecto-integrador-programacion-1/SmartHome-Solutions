@@ -12,5 +12,4 @@ class Auth:
             if user.name == self.name and user.password == self.password:
                 self.user = user
         return self.user
-
            
