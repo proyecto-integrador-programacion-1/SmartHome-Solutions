@@ -1,5 +1,5 @@
 from data.user_data_from_local import get_logged_user
-from menu_methods import list_devices, search_devices, add_device, delete_device, manage_automations, consult_user_data, update_user_role
+from menu_methods import list_devices, search_devices, add_device, delete_device, manage_automations, consult_user_data, update_user_role, consult_automation
 from helpers import get_user_status 
 from auth import login , register
 
@@ -75,7 +75,7 @@ menu_list = [
 	{
 		"name": "Automatizaciones activas",
 		"role": ["admin"],
-		"function": manage_automations.manage_automations
+		"function": consult_automation.show_active_automations
 	},
 	{
 		"name": "Consultar información de usuario",
